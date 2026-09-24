@@ -1,7 +1,7 @@
 // api.js — ชั้นเชื่อมต่อ backend (Google Apps Script Web App)
 // เอา URL มาจาก Apps Script > Deploy > New deployment > Web app
 // ตั้งค่า Execute as: Me, Who has access: Anyone
-const API_URL = 'https://script.google.com/macros/s/AKfycbxVmBIjQP9aVmcOoGQY-0s2SqGxJ-Ro-dz3rPP1gZButJjHXH2yTZZKHuXOB6dD-II/exec';
+const API_URL = 'https://script.google.com/macros/s/AKfycbzuVdKEpTN7Xgnq1jzZY2EtKhsL-C9IdprIeKl3vFvos3bUhVMZcxIZ9JYE-SndSHgS/exec';
 
 const API = (() => {
     const useGas = typeof google !== 'undefined' && google.script && google.script.run;
